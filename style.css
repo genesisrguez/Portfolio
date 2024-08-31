@@ -5,7 +5,6 @@ body{
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
-
     display: flex;
     justify-content: center;
 }
@@ -188,7 +187,6 @@ body{
     display: flex;
     justify-content: space-around;
     margin-bottom: 5px;
-    
 }
 
 .subsection-form input {
@@ -242,4 +240,92 @@ body{
     border-radius: 30px;
     font-size: .7em;
     font-weight: 100;
+}
+
+
+.toggle-section {
+    height: auto;
+    background-color: white;
+    border-radius: 7px;
+    padding: 5px 20px;
+    cursor: pointer;
+    margin-top: 1px;
+}
+
+.btn-toggle {
+    border-style: none;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 1.2em;
+    font-weight: 400;
+}
+
+.accordion__answer {
+    display: none;
+    font-weight: 300;
+}
+ 
+.accordion__answer p {
+    font-size: 1em;
+}
+
+.accordion.active .accordion__answer {
+    display: block;
+}
+
+.blog-container {
+    display: flex;
+    background-color: white;
+    border-radius: 7px;
+}
+
+   
+.cover-blog{
+    width: 50%;
+}
+
+.cover-blog img {
+    width: 100%;
+    border-radius: 7px;
+    display: flex;
+}
+
+.info-blog {
+    width: 50%;
+    padding: 1em;
+}
+
+.btn-flex {
+    display: flex;
+}
+
+.info-blog .btn-flex p {
+    border: 1px solid rgb(198, 198, 198);
+    padding: 7px;
+    border-radius: 30px;
+    margin-right: 7px;
+    font-size: .8em;
+}
+
+.btn-rm {
+    border: 1px solid rgb(198, 198, 198);
+    padding: 7px;
+    border-radius: 30px;
+    font-size: .9em;
+    background-color: white;
+    text-decoration: none;
+}
+
+.blog-container .info-blog h1 {
+    font-size: 1.5em;
+    font-weight: 400;
+    margin-bottom: 2em;
+}
+
+.blog-container .info-blog a {
+    color: black;
+    font-weight: 300;
 }
