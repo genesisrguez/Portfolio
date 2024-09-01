@@ -122,6 +122,7 @@ body{
     padding: 20px;
     border: 1px solid black;
     border-radius: 30px;
+    text-decoration: none;
 }
 
 .btn-black:hover {
@@ -135,6 +136,7 @@ body{
     border: 1px solid rgb(211, 211, 211);
     border-radius: 30px;
     text-decoration: underline;
+    color: black;
 }
 
 .btn-lined:hover {
